@@ -103,7 +103,7 @@ Ensure that the `deviceName`, `appPackage` (for Android), `appActivity` (for And
 Start the Appium server in the background using:
 
 ```bash
-npm run appium
+npm run appium -p 4723
 ```
 
 Make sure the Appium server is running on `localhost:4723`. If your server is running on a different host or port, update the configuration in the project accordingly.
@@ -166,10 +166,10 @@ npm run wdio:ios
 
 After running tests, check the following directories for reports and video recordings:
 
-- **Reports Directory**: `./reports`
+- **Reports Directory**: `./results`
 - **Video Directory**: `./video`
 
-Review the generated reports in the `reports` directory and video recordings in the `video` directory for reference.
+Review the generated reports in the `results` directory and video recordings in the `video` directory for reference.
 
 ## References
 
