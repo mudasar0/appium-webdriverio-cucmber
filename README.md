@@ -162,14 +162,13 @@ Execute iOS tests and generate reports:
 npm run wdio:ios
 ```
 
-## Step 11: Checking Reports and Video Recordings
-
+Step 11: Checking Reports and Video Recordings
 After running tests, check the following directories for reports and video recordings:
 
-- **Reports Directory**: `./results`
-- **Video Directory**: `./video`
-
-Review the generated reports in the `results` directory and video recordings in the `video` directory for reference.
+Reports Directory: ./reports
+Video Recording: [View Video Recording](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing)
+You can access the video recording by clicking on the View Video Recording link. Here's a preview of the video:
+![Video Preview](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing)
 
 ## References
 
