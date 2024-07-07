@@ -129,7 +129,7 @@ appium-doctor --android
 If UIAutomator2 is not installed, install it using:
 
 ```bash
-appium driver install xcuitest
+appium driver install uiautomator2
 ```
 
 #### Checking XCUITest for iOS:
@@ -141,7 +141,7 @@ appium-doctor --ios
 If XCUITest is not installed, install it using:
 
 ```bash
-appium driver install uiautomator2
+appium driver install xcuitest
 ```
 
 ## Step 9: Running Android Tests
