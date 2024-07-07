@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Sauce Lab Application: As a user, I can log into the Application with valid username and without password","","0","0","3","0","0"
+"","Sauce Lab Application: As a user, I can't log into the Application with invalid creditials","","0","0","3","0","0"
+"","","","5","0","0","0","0"
+"","Sauce Lab Application: As a user, I can log into the Application with valid creditials","","0","0","3","0","0"
+"","Sauce Lab Application: As a user, I can log into the Application without creditials","","0","0","3","0","0"
+"","Sauce Lab Application: As a user, I can't log into the Application with locked creditials","","0","0","3","0","0"

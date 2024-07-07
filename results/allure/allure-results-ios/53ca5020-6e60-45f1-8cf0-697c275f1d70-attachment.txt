@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//XCUIElementTypeStaticText[@label=\"Password is required\"]"
+}

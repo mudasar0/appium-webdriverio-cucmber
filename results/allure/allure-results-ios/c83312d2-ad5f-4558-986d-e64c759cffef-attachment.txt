@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//XCUIElementTypeStaticText[@label=\"Username and password do not match any user in this service.\"]"
+}
