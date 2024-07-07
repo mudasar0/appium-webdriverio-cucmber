@@ -103,7 +103,7 @@ Ensure that the `deviceName`, `appPackage` (for Android), `appActivity` (for And
 Start the Appium server in the background using:
 
 ```bash
-npm run appium -p 4723
+appium -p 4723
 ```
 
 Make sure the Appium server is running on `localhost:4723`. If your server is running on a different host or port, update the configuration in the project accordingly.
@@ -113,7 +113,7 @@ Make sure the Appium server is running on `localhost:4723`. If your server is ru
 Ensure Appium dependencies are correctly installed and configured by running:
 
 ```bash
-npm run appium-doctor
+appium-doctor
 ```
 
 ## Step 8: Check UIAutomator2 and XCUITest Drivers
@@ -129,8 +129,7 @@ appium-doctor --android
 If UIAutomator2 is not installed, install it using:
 
 ```bash
-npm install -g appium@latest
-appium-doctor --android
+appium driver install xcuitest
 ```
 
 #### Checking XCUITest for iOS:
@@ -142,8 +141,7 @@ appium-doctor --ios
 If XCUITest is not installed, install it using:
 
 ```bash
-npm install -g appium@latest
-appium-doctor --ios
+appium driver install uiautomator2
 ```
 
 ## Step 9: Running Android Tests
@@ -162,13 +160,17 @@ Execute iOS tests and generate reports:
 npm run wdio:ios
 ```
 
-Step 11: Checking Reports and Video Recordings
+## Step 11: Checking Reports and Video Recordings
+
 After running tests, check the following directories for reports and video recordings:
 
-Reports Directory: ./reports
-Video Recording: [View Video Recording](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing)
-You can access the video recording by clicking on the View Video Recording link. Here's a preview of the video:
+- **Reports Directory**: `./reports`
+- **Video Recording**: [View Video Recording](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing)
+
+You can access the video recording by clicking on the [View Video Recording](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing) link. Here's a preview of the video:
+
 ![Video Preview](https://drive.google.com/uc?export=view&id=1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L)
+
 
 ## References
 
