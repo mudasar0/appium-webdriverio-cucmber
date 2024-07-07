@@ -18,7 +18,7 @@ This project utilizes Appium and Cucumber-js for automated testing of mobile app
 - **Version Control**: GitHub
 - **Emulators & Simulators**:
   - [Android Studio Emulator](https://developer.android.com/studio/run/emulator)
-  - [Xcode Simulator](https://developer.apple.com/documentation/xcode/running_your_app_in_the_simulator_or_on_a_device)
+  - [Xcode Simulator](https://developer.apple.com/documentation/xcode/installing-additional-simulator-runtimes)
 
 ## Step 1: Clone this Git Repository
 
@@ -52,7 +52,7 @@ npm install
 
 Please ensure you have the following set up:
 - **Android Emulator**: Set up and configure an Android emulator using [Android Studio Emulator](https://developer.android.com/studio/run/emulator).
-- **iOS Simulator**: Set up and configure the iOS simulator using [Xcode Simulator](https://developer.apple.com/documentation/xcode/running_your_app_in_the_simulator_or_on_a_device).
+- **iOS Simulator**: Set up and configure the iOS simulator using [Xcode Simulator](https://developer.apple.com/documentation/xcode/installing-additional-simulator-runtimes).
 
 Make sure the emulators/simulators are running and accessible.
 
@@ -177,4 +177,7 @@ You can access the video recording by clicking on the [View Video Recording](htt
 - [wd](https://github.com/admc/wd): WebDriver client for Node.js.
 - [Appium Sample Code](https://github.com/appium-boneyard/sample-code/tree/master/sample-code/examples/node): Official Appium sample code repository.
 - [Cucumber-JS](https://github.com/cucumber/cucumber-js): Cucumber for JavaScript.
-- [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter): Generate HTML reports for Cucumber tests.
+- [Allure Framework](https://docs.qameta.io/allure/): Framework designed to create detailed and comprehensive reports for test automation projects.
+- [Android Studio Emulator](https://developer.android.com/studio/run/emulator): Emulator provided by Android Studio for testing Android applications.
+- [Xcode Simulator](https://developer.apple.com/documentation/xcode/running_your_app_in_the_simulator_or_on_a_device): Simulator provided by Xcode for testing iOS applications.
+
