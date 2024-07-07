@@ -168,7 +168,7 @@ After running tests, check the following directories for reports and video recor
 Reports Directory: ./reports
 Video Recording: [View Video Recording](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing)
 You can access the video recording by clicking on the View Video Recording link. Here's a preview of the video:
-![Video Preview](https://drive.google.com/file/d/1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L/view?usp=sharing)
+![Video Preview](https://drive.google.com/uc?export=view&id=1TmWouF8eEuUsGwslgcJz9xN6fAb7oF1L)
 
 ## References
 
